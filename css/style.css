@@ -1,0 +1,37 @@
+:root {
+    --sfondo: #073B4C;
+    --azzurro: #1389B2;
+    --verde-fizz: #0AD6A1;
+    --giallo-buzz: #FFD165;
+    --rosso-fizzbuzz: #F0466F;
+}
+
+main {
+    background-color: var(--sfondo);
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.square-number {
+    background-color: var(--azzurro);
+}
+
+.square-fizz {
+    background-color: var(--verde-fizz);
+}
+
+.square-buzz {
+    background-color: var(--giallo-buzz);
+}
+
+.square-fizzbuzz {
+    background-color: var(--rosso-fizzbuzz);
+}
+
